@@ -30,7 +30,7 @@ class person:
         self.__salary = salary
 
     def show_salary(self):
-        return self.__salary
+        print(self.__salary)
     
     def greet(self):
         print(f"Name of student is {self.name} and {self.age} old")
@@ -82,7 +82,7 @@ student.greet()
 
 print("\nAssignment 7\n")
 Person.salary(5000)
-print(f"Salary: {Person.show_salary()}")
+Person.show_salary()
 
 print("\nAssignment 8\n")
 print(Person.adult(20))
