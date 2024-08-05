@@ -1,9 +1,11 @@
-#Assignment 1,2,3,4
+#Assignment 1-9
 class person:
     def __init__(self,name,age,):
         self.name = name
         self.age = age
         self.__salary=0
+        self.address=""
+        self.phone_number=""
     def update_contact_info(self, address, phone_number):
         self.address = address
         self.phone_number = phone_number
@@ -38,9 +40,43 @@ class student(person):
 
 def introduce(person):
     person.greet()
-  
-Person = person("O'por", 19)
-Student=student("Vachiravith",19,66011627)
-introduce(Person)
-introduce(Student)
 
+print("\nAssignment 1\n")
+#assignment 1
+Person = person("O'por", 19)
+print(f"Hello my name is {Person.name} and I am {Person.age} old")
+
+print("\nAssignment 2\n")
+#assignment 2
+Person.greet()
+
+print("\nAssignment 3\n")
+#Assignment 3
+Person.update_contact_info("KMITL","0875165164")
+Person.display_info()
+
+print("\nAssignment 4\n")
+#Assignment4
+Person=person("Opor",17)
+Person.have_birthday()
+Person.display_info()
+
+print("\nAssignment 5\n")
+#assignment 5
+student = student("Tang", 17, "66011627")
+student.display_info()
+print(f"Student ID: {student.student_id}")
+
+print("\nAssignment 6\n")
+student.greet()
+
+print("\nAssignment 7\n")
+print(f"Salary: {Person.salary(5000)}")
+
+print("\nAssignment 8\n")
+print(Person.adult(20))
+print(Person.adult(17))
+
+print("\nAssignment 9\n")
+introduce(Person)
+introduce(student)
