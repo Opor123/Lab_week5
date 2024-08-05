@@ -46,7 +46,7 @@ Required Knowledge: Encapsulation, Private Attributes
 2. Add a method to retrieve the value of the `__salary` attribute.
 3. Instantiate an object, set the salary, and print it using the retrieval method.
 
-#### Assignment 7: Static Methods
+#### Assignment 8: Static Methods
 Required Knowledge: Static Methods
 1. Add a static method `is_adult` to the `Person` class that takes an age as an argument and returns `True` if the age is 18 or above, otherwise `False`.
 2. Call the `is_adult` method from the class without creating an object.

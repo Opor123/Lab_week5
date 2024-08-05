@@ -1,4 +1,4 @@
-#Assignment 1-9
+#Assignment
 class person:
     def __init__(self,name,age,):
         self.name = name
@@ -23,6 +23,7 @@ class person:
             print("You still a minor")
     def salary(self, salary):
         self.__salary = salary
+    def show_salary(self):
         return self.__salary
     def greet(self):
         print(f"Name of student is {self.name} and {self.age} old")
@@ -71,7 +72,8 @@ print("\nAssignment 6\n")
 student.greet()
 
 print("\nAssignment 7\n")
-print(f"Salary: {Person.salary(5000)}")
+Person.salary(5000)
+print(f"Salary: {Person.show_salary()}")
 
 print("\nAssignment 8\n")
 print(Person.adult(20))
