@@ -9,10 +9,10 @@
 
 #### Assignment 1: Creating a Class
 Required Knowledge: Class Definition, Object Instantiation
-1. Define a class named `Person`.
-2. Add two attributes: `name` and `age`.
-3. Instantiate an object of the `Person` class with your name and age.
-4. Print the object's attributes.
+    1. Define a class named `Person`.
+    2. Add two attributes: `name` and `age`.
+    3. Instantiate an object of the `Person` class with your name and age.
+    4. Print the object's attributes.
 
 #### Assignment 2: Instance Methods
 Required Knowledge: Instance Methods
